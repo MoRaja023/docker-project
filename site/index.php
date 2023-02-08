@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
-    echo "I am a big fan of The Simpsons"
-    ?>
-    
-</body>
-</html>
+<?php
+$voornaam = "Mohamed";
+echo $voornaam;
+
+$achternaam = "El Harchaui";
+echo $achternaam;
+
+$leeftijd = 22
+echo $leeftijd;
+
+?>
