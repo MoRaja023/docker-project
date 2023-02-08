@@ -1,11 +1,14 @@
 <?php
-$voornaam = "Mohamed";
-echo $voornaam;
+$abcGetallen = [
+    ["a", "b", "c","d"]
+    [24,56,78,99]
+];
 
-$achternaam = "El Harchaui";
-echo $achternaam;
+print_r($abcGetallen);
 
-$leeftijd = 22
-echo $leeftijd;
+echo $abcGetallen[0][0];
+echo $abcGetallen[1][1];
 
+echo $abcGetallen[0][2];
+echo $abcGetallen[1][3];
 ?>
