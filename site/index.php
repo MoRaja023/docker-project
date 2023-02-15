@@ -1,14 +1,22 @@
 <?php
-$abcGetallen = [
-    ["a", "b", "c","d"]
-    [24,56,78,99]
-];
-
-print_r($abcGetallen);
-
-echo $abcGetallen[0][0];
-echo $abcGetallen[1][1];
-
-echo $abcGetallen[0][2];
-echo $abcGetallen[1][3];
+$spongebob_main_characters = [
+    "Spongebob" => [
+        "age" => 12,
+        "job" => "fry cook"
+    ],
+    "Patrick" => [
+    "age" => 12
+    "job" => "unemployed"
+    ],
+    "Sandy" => [
+    "age" => 25
+    "job" => "scientist"
+    ],
+    "Squidward" => [
+        "age" => 35
+        "job" => "cashier"
+    ]
+    ];
+    echo($spongebob_main_characters["Patrick"]["age"])
+    echo($spongebob_main_characters["Patrick"]["job"])
 ?>
