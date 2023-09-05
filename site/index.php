@@ -18,6 +18,8 @@
 
     $tvshow = "Family Guy";
     echo $tvshow;
+
+    echo "<h1>$tvshow</h1>";
     ?>
 
     <?php
@@ -29,7 +31,6 @@
 
     $leeftijd = "23";
     echo $leeftijd;
-
     ?>
 </body>
 
