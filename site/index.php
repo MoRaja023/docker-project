@@ -46,6 +46,16 @@
         echo "Jij behoort tot generatie Z. (Zoomer)";
     }
     ?>
+
+    <?php $a = 12;
+    $b = 222;
+
+    if ($a < $b) {
+        echo '$a is smaller then $b';
+    } else {
+        echo '$a is larger the $b';
+    }
+    ?>
 </body>
 
 </html>
