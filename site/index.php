@@ -32,6 +32,20 @@
     $leeftijd = "23";
     echo $leeftijd;
     ?>
+
+    <?php
+    $leeftijd = 16;
+
+    if ($leeftijd < 18) {
+        echo "je bent minderjarig";
+    }
+
+    $geboortejaar = 2008;
+
+    if ($geboortejaar > 1997 && $geboortejaar < 2012) {
+        echo "Jij behoort tot generatie Z. (Zoomer)";
+    }
+    ?>
 </body>
 
 </html>
