@@ -1,3 +1,23 @@
-<?php
-echo "i am a big fan og the simpsons"
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mijn eerste project</title>
+</head>
+
+<body>
+    <?php
+    echo "i am a big fan of the simpsons"
+    ?>
+
+    <?php
+    $tvshow = "The Simpons";
+
+    $tvshow = "Family Guy";
+    echo $tvshow;
+    ?>
+</body>
+
+</html>
