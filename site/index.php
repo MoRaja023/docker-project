@@ -1,11 +1,3 @@
 <?php
-$mijngegevens = [
-    "Voornaam" => "Mohamed",
-    
-    "Achternaam" => "El Harchaui",
-
-    "Leeftijd" => 22,
-];
-foreach($mijngegevens as $info)
-echo $info;
+echo "i am a big fan og the simpsons"
 ?>
