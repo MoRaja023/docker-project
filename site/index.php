@@ -14,9 +14,22 @@
 
     <?php
     $tvshow = "The Simpons";
+    echo $tvshow;
 
     $tvshow = "Family Guy";
     echo $tvshow;
+    ?>
+
+    <?php
+    $voornaam = "Mohamed";
+    echo $voornaam;
+
+    $achternaam = "El Harchaui";
+    echo $achternaam;
+
+    $leeftijd = "23";
+    echo $leeftijd;
+
     ?>
 </body>
 
