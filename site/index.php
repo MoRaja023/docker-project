@@ -7,54 +7,13 @@
     <title>mijn eerste project</title>
 </head>
 
-<body>
+<body>;
     <?php
-    echo "i am a big fan of the simpsons"
-    ?>
-
-    <?php
-    $tvshow = "The Simpons";
-    echo $tvshow;
-
-    $tvshow = "Family Guy";
-    echo $tvshow;
-
-    echo "<h1>$tvshow</h1>";
-    ?>
-
-    <?php
-    $voornaam = "Mohamed";
-    echo $voornaam;
-
-    $achternaam = "El Harchaui";
-    echo $achternaam;
-
-    $leeftijd = "23";
-    echo $leeftijd;
-    ?>
-
-    <?php
-    $leeftijd = 16;
-
-    if ($leeftijd < 18) {
-        echo "je bent minderjarig";
-    }
-
-    $geboortejaar = 2008;
-
-    if ($geboortejaar > 1997 && $geboortejaar < 2012) {
-        echo "Jij behoort tot generatie Z. (Zoomer)";
-    }
-    ?>
-
-    <?php $a = 12;
-    $b = 222;
-
-    if ($a < $b) {
-        echo '$a is smaller then $b';
-    } else {
-        echo '$a is larger the $b';
-    }
+    $bonusgetallen = [5, 16, 19, 32, 56, 99];
+    $mijngegens = ["Mohamed", 78, TRUE, 3.4];
+    $meerVoudigeArray = [[1, 2, 3], [4, 5, 6,]];
+    echo $mijngegens[2];
+    echo $meerVoudigeArray[0][2];
     ?>
 </body>
 
